@@ -21,3 +21,9 @@ jobs:
 
       - name: Show file
         run: cat dragon.txt
+
+      - name: Upload dragon.txt as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: dragon-file
+          path: dragon.txt
