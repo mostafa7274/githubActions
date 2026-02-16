@@ -11,4 +11,4 @@ jobs:
               run: ls -ltra
 
             - name: run shell script
-              run: echo "ehhh ya brooo"            
+              run: ./script.sh         
